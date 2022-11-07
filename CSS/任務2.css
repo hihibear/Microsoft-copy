@@ -1,0 +1,107 @@
+       * {
+           box-sizing: border-box;
+       }
+
+       body {
+           margin: 0;
+           width: 100%;
+           height: 100%;
+           position: relative;
+       }
+
+       nav {
+           width: 100%;
+           height: 54px;
+           /* background-color: rgb(212, 211, 190); */
+           padding: 0px 96px;
+           margin: 0px 0px 2px;
+           display: flex;
+           align-items: center;
+           font-size: 13px;
+       }
+
+       .logo img {
+           width: 137px;
+
+       }
+
+       .menu-left ul,
+       .menu-right ul {
+           list-style: none;
+           display: flex;
+           font-family: 'Segoe UI', "Helvetica Neue", Helvetica, Arial, sans-serif;
+
+       }
+
+       .menu-left ul li a,
+       .menu-right ul li a {
+           text-decoration: none;
+           color: black;
+       }
+
+       .menu-left ul li {
+           /* margin-right: 1px 4px 0px; */
+           padding: 10px 10px 10px;
+           /* justify-content: start; */
+       }
+
+       .menu-left {
+           width: 600px;
+           /* justify-content: end; */
+           display: flex;
+           /* margin-right: 10px; ; */
+       }
+
+       .menu-right ul {
+           /* width: 300px; */
+           justify-content: end;
+           align-items: center;
+           justify-content: space-between;
+           margin-right: 5px;
+       }
+
+       .menu-right span {
+           width: 30px;
+           margin: 10px 5px;
+           padding: 20px 10px;
+
+       }
+
+       #icon {
+           background-image: url(../R2-img/icon1.svg);
+           width: 20px;
+           height: 20px;
+       }
+
+       
+       /* body {
+           position: relative;
+           height: 100%;
+       }
+
+       body {
+           background: #eee;
+           font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+           font-size: 14px;
+           color: #000;
+           margin: 0;
+           padding: 0;
+       } */
+
+       .swiper-middle{
+        position: absolute;
+        height: 600px;
+        width: 100%;
+       }
+
+       .swiper-slide img {
+           display: block;
+           width: 100%;
+           height: 100%;
+           object-fit: cover;
+       }
+
+       :root {
+        --swiper-theme-color: black !important;
+    }
+
